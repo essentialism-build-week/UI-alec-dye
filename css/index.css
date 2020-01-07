@@ -140,7 +140,8 @@ h2,
 h3,
 h4,
 h5 {
-  font-size: 2rem;
+  font-size: 1.6rem;
+  font-weight: bold;
 }
 p {
   font-size: 1.4rem;
@@ -150,4 +151,48 @@ a {
   text-decoration: none;
   font-size: 1.6rem;
   color: red;
+}
+nav {
+  max-width: 100%;
+  padding: 10% 0;
+  background-color: #9FD6AC;
+  display: flex;
+  justify-content: space-around;
+}
+footer {
+  background-color: #9FD6AC;
+  padding: 8% 0;
+}
+.copyright_cont {
+  display: flex;
+  justify-content: center;
+}
+.copyright {
+  width: 40%;
+  background-color: #F2EBEB;
+  font-size: 1.2rem;
+  border-radius: 20px;
+  padding: 1%;
+}
+.home_header {
+  border: 1px solid black;
+  padding: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quote_cont {
+  background-color: #9FD6AC;
+}
+.quote {
+  background-color: #F2EBEB;
+}
+.features {
+  border: 1px solid black;
+  padding: 4%;
+  justify-content: center;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
