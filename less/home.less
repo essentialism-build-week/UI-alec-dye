@@ -1,16 +1,43 @@
 .home_header {
     .viewCont();
+    margin-top: 6%;
+    .center();
+}
+h2 {
+    margin-bottom: 6%;
+}
+.action_cont{
+    max-width: 80%;
+    margin: 0 auto;
+    .defaultPadding();
+    margin-top: 3%;
+
 }
 .quote_cont {
     background-color: @mainColorOne;
+    padding: 6%;
+    margin-top: 10%;
 }
 .quote {
     background-color: @backgroundColor;
+    border-radius: 20px;;
+    .center();
+    .defaultPadding();
 }
 .features {
-    .viewCont();
     max-width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
+    .defaultPadding();
+    .defaultMargin();
+}
+.features_cont {
+    .viewCont();
+    .defaultMargin();
+    width: 60%;
+    border: 15px solid @blue;
+    border-radius: 20px;
+    .center();
 }
