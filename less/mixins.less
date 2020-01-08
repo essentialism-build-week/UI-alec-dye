@@ -14,7 +14,7 @@
 // Buttons
 .btn1(@darkBlue, @backgroundColor){
     background-color: @darkBlue;
-    display: inline-block;
+    display: block;
     cursor: pointer;
     color: @backgroundColor;
     font-size: 1.5rem;
@@ -24,8 +24,9 @@
     width: 20%;
 }
 .btn2(@btnAction, @backgroundColor){
-    display: flex;
-    justify-content: center;
+    display: block;
+    width: 80px;
+    height: 25px;
     background-color: @btnAction;
     cursor: pointer;
     color: @backgroundColor;
@@ -33,7 +34,6 @@
     padding: 10% 15%;
     text-decoration: none;
     border-radius: 15px;
-    width: 20%;
 }
 
 // Debugging

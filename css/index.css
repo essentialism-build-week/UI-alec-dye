@@ -86,7 +86,7 @@ video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
+  font-size: 62.5%;
   font: inherit;
   vertical-align: baseline;
 }
@@ -163,18 +163,19 @@ nav {
   margin-bottom: 10%;
 }
 .logo_cont {
-  width: 50%;
-  height: auto;
+  width: 35%;
   background: url(../assets/logo.svg);
   background-repeat: no-repeat;
   object-fit: contain;
+  margin-left: 8%;
 }
 .links_cont {
-  width: 50%;
+  width: 35%;
+  margin-right: 5%;
 }
 .button_nav {
   background-color: #5BA9B1;
-  display: inline-block;
+  display: block;
   cursor: pointer;
   color: #F2EBEB;
   font-size: 1.5rem;
@@ -225,11 +226,12 @@ h2 {
   position: relative;
   top: 16%;
   left: 16%;
-  box-shadow: -3px -6px #5BA9B1;
+  box-shadow: -2px -3px #5BA9B1;
 }
 .button_action {
-  display: flex;
-  justify-content: center;
+  display: block;
+  width: 80px;
+  height: 25px;
   background-color: #ff8080;
   cursor: pointer;
   color: #F2EBEB;
@@ -237,20 +239,19 @@ h2 {
   padding: 10% 15%;
   text-decoration: none;
   border-radius: 15px;
-  width: 20%;
   margin: 4% auto;
-  box-shadow: 0px 10px 0px #a32222;
+  box-shadow: 0px 15px 0px #a32222;
   text-shadow: -1px -1px 0px #a32222;
 }
 .quote_cont {
   background-color: #a6e0b4;
   padding: 6%;
-  margin: 20% 0;
-  box-shadow: 0px 6px 0 #65B879;
+  margin-top: 15%;
+  margin-bottom: 8%;
 }
 .quote {
   background-color: #F2EBEB;
-  box-shadow: 0 -6px 0 #65B879;
+  box-shadow: 0 -3px 0 #65B879;
   border-radius: 20px;
   display: flex;
   justify-content: center;
@@ -267,7 +268,6 @@ h2 {
   padding: 4%;
 }
 .features_cont {
-  border: 1px solid black;
   padding: 4%;
   width: 60%;
   border: 15px solid #A0CDD2;
@@ -278,5 +278,16 @@ h2 {
   flex-direction: column;
 }
 .feature_1 {
-  margin-bottom: 7%;
+  margin-bottom: 10%;
+}
+h2 {
+  margin: 0;
+}
+.about_header {
+  border: 15px solid #A0CDD2;
+  border-radius: 20px;
+  width: 60%;
+  padding: 5% 2%;
+  margin: 0 auto;
+  box-shadow: 0px 3px #5BA9B1;
 }
