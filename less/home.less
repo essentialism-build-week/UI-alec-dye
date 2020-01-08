@@ -1,24 +1,31 @@
 .home_header {
-    .viewCont();
+    // .viewCont();
     margin-top: 6%;
-    .center();
-    background: @thoughtBubble;
+    // .center();
+    background: url(@thoughtBubble);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: contain;
 }
 h2 {
     margin-bottom: 6%;
 }
 .action_cont{
-    max-width: 80%;
-    margin: 0 auto;
+    max-width: 75%;
+    // margin-top: 4%;
     .defaultPadding();
-    margin-top: 3%;
     background-color: @backgroundColor;
     border-radius: 15px;
-    .viewCont();
+    // .viewCont();
+    .center();
+    // position: relative;
+    // top: 12%; left: 1%;
+    display: none;
 
 }
 .button_action {
     .btn2(@red, @backgroundColor);
+    margin: 4% auto;
 }
 .quote_cont {
     background-color: @mainColorOne;
