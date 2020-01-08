@@ -153,8 +153,8 @@ a {
 }
 nav {
   max-width: 100%;
-  padding: 12% 0;
-  background: url(../assets/topBannerMobile.png);
+  padding: 10% 0;
+  background-color: #9FD6AC;
   display: flex;
   justify-content: space-around;
   margin-bottom: 10%;
@@ -194,7 +194,7 @@ footer {
 }
 .home_header {
   margin-top: 6%;
-  background: url(../assets/thoughtBubble.png);
+  background: url(../assets/thoughtBubble.svg);
   background-repeat: no-repeat;
   height: 500px;
   background-size: contain;
