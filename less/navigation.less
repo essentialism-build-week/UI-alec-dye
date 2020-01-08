@@ -8,16 +8,26 @@ nav {
 
 }
 .logo_cont{
-    .viewCont();
-    width: 20%;
+    // .viewCont();
+    width: 50%;
+    height: auto;
+    background: url(@logo);
+    background-repeat: no-repeat;
+    object-fit: contain;
 
 }
+.links_cont{
+    width: 50%;
+}
 .button_nav {
-    .btn1(@mainColorTwo, @backgroundColor);
+    .btn1(@darkBlue, @backgroundColor);
+    box-shadow: 0px 10px 0px @blue;
+    text-shadow: -1px -1px 0px @blue;
 }
 footer {
     background-color: @mainColorOne;
     padding: 8% 0;
+    margin-top: 10%;
 }
 .copyright_cont{
     display: flex;
@@ -26,6 +36,7 @@ footer {
 .copyright {
     width: 40%;
     background-color: @backgroundColor;
+    box-shadow: 0px -3px 0 @darkMint;
     font-size: 1rem;
     border-radius: 20px;
     padding: 1%;

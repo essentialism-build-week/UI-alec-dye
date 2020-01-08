@@ -140,11 +140,14 @@ h2,
 h3,
 h4,
 h5 {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
+h1 {
+  display: none;
+}
 p {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   line-height: 1.6em;
 }
 a {
@@ -154,18 +157,20 @@ a {
 nav {
   max-width: 100%;
   padding: 10% 0;
-  background-color: #9FD6AC;
+  background-color: #a6e0b4;
   display: flex;
   justify-content: space-around;
   margin-bottom: 10%;
 }
 .logo_cont {
-  border: 1px solid black;
-  padding: 4%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 20%;
+  width: 50%;
+  height: auto;
+  background: url(../assets/logo.svg);
+  background-repeat: no-repeat;
+  object-fit: contain;
+}
+.links_cont {
+  width: 50%;
 }
 .button_nav {
   background-color: #5BA9B1;
@@ -176,10 +181,14 @@ nav {
   padding: 15% 30%;
   text-decoration: none;
   border-radius: 15px;
+  width: 20%;
+  box-shadow: 0px 10px 0px #A0CDD2;
+  text-shadow: -1px -1px 0px #A0CDD2;
 }
 footer {
-  background-color: #9FD6AC;
+  background-color: #a6e0b4;
   padding: 8% 0;
+  margin-top: 10%;
 }
 .copyright_cont {
   display: flex;
@@ -188,29 +197,35 @@ footer {
 .copyright {
   width: 40%;
   background-color: #F2EBEB;
+  box-shadow: 0px -3px 0 #65B879;
   font-size: 1rem;
   border-radius: 20px;
   padding: 1%;
 }
 .home_header {
+  margin: 0 auto;
   margin-top: 6%;
   background: url(../assets/thoughtBubble.svg);
   background-repeat: no-repeat;
   height: 500px;
-  background-size: contain;
+  object-fit: contain;
 }
 h2 {
-  margin-bottom: 6%;
+  margin-bottom: 4%;
 }
 .action_cont {
-  max-width: 75%;
-  padding: 4%;
+  max-width: 65%;
+  padding: 2% 1%;
   background-color: #F2EBEB;
   border-radius: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  position: relative;
+  top: 16%;
+  left: 16%;
+  box-shadow: -3px -6px #5BA9B1;
 }
 .button_action {
   display: flex;
@@ -218,20 +233,24 @@ h2 {
   background-color: #ff8080;
   cursor: pointer;
   color: #F2EBEB;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   padding: 10% 15%;
   text-decoration: none;
   border-radius: 15px;
   width: 20%;
   margin: 4% auto;
+  box-shadow: 0px 10px 0px #a32222;
+  text-shadow: -1px -1px 0px #a32222;
 }
 .quote_cont {
-  background-color: #9FD6AC;
+  background-color: #a6e0b4;
   padding: 6%;
-  margin-top: 10%;
+  margin: 20% 0;
+  box-shadow: 0px 6px 0 #65B879;
 }
 .quote {
   background-color: #F2EBEB;
+  box-shadow: 0 -6px 0 #65B879;
   border-radius: 20px;
   display: flex;
   justify-content: center;
@@ -246,17 +265,18 @@ h2 {
   align-items: center;
   justify-content: space-evenly;
   padding: 4%;
-  margin: 6% 0;
 }
 .features_cont {
   border: 1px solid black;
   padding: 4%;
-  margin: 6% 0;
   width: 60%;
-  border: 15px solid #5BA9B1;
+  border: 15px solid #A0CDD2;
   border-radius: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+.feature_1 {
+  margin-bottom: 7%;
 }
