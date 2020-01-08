@@ -150,7 +150,6 @@ p {
 a {
   text-decoration: none;
   font-size: 1.6rem;
-  color: red;
 }
 nav {
   max-width: 100%;
@@ -167,6 +166,16 @@ nav {
   justify-content: center;
   align-items: center;
   width: 20%;
+}
+.button_nav {
+  background-color: #5BA9B1;
+  display: inline-block;
+  cursor: pointer;
+  color: #F2EBEB;
+  font-size: 1.5rem;
+  padding: 15% 30%;
+  text-decoration: none;
+  border-radius: 15px;
 }
 footer {
   background-color: #9FD6AC;
@@ -203,6 +212,17 @@ h2 {
   background-color: #F2EBEB;
   border-radius: 15px;
 }
+.button_action {
+  display: flex;
+  justify-content: center;
+  background-color: #ff8080;
+  cursor: pointer;
+  color: #F2EBEB;
+  font-size: 1.5rem;
+  padding: 15% 30%;
+  text-decoration: none;
+  border-radius: 15px;
+}
 .quote_cont {
   background-color: #9FD6AC;
   padding: 6%;
@@ -231,7 +251,7 @@ h2 {
   padding: 4%;
   margin: 6% 0;
   width: 60%;
-  border: 15px solid #91C3C8;
+  border: 15px solid #5BA9B1;
   border-radius: 20px;
   display: flex;
   justify-content: center;

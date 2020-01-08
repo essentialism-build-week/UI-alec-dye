@@ -11,6 +11,28 @@
 .defaultPadding(){
     padding: 4%;
 }
+// Buttons
+.btn1(@mainColorTwo, @backgroundColor){
+    background-color: @mainColorTwo;
+    display: inline-block;
+    cursor: pointer;
+    color: @backgroundColor;
+    font-size: 1.5rem;
+    padding: 15% 30%;
+    text-decoration: none;
+    border-radius: 15px;
+}
+.btn2(@btnAction, @backgroundColor){
+    display: flex;
+    justify-content: center;
+    background-color: @btnAction;
+    cursor: pointer;
+    color: @backgroundColor;
+    font-size: 1.5rem;
+    padding: 15% 30%;
+    text-decoration: none;
+    border-radius: 15px;
+}
 
 // Debugging
 .viewCont(){
