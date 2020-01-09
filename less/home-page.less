@@ -1,13 +1,13 @@
 .home_header {
-    margin: 0 auto;
-    margin-top: 6%;
     background: url(@thoughtBubble);
     background-repeat: no-repeat;
-    height: 400px; 
     object-fit: contain;
+    background-position: center;
+    height: 400px;
+    margin: 6% auto 0 auto;
     padding-top: 18%;
     padding-left: 18%;
-    @media (min-width: 500px) and (max-width:650px) {
+    @media @mobile{
         height: 520px;
         padding-top: 16%;
         padding-left: 17%;
@@ -18,28 +18,32 @@
         padding-left: 18%;
     }
     @media @desktop{
-        height: 90vh;
+        height: 100vh;
+        margin: 2% 3% 0 3%;
+        padding-top: 12%;
+        padding-left: 30%;
     }
 }
 h2 {
     margin-bottom: 4%;
 }
 .action_cont{
-    max-width: 80%;
-    padding: 1% 0 1% 0;
     background-color: @backgroundColor;
-    border-radius: 15px;
+    max-width: 80%;
     .center();
+    padding: 1% 0 1% 0;
+    border-radius: 15px;
     box-shadow: -2px -3px @darkBlue;
     @media @mobile {
         max-width: 70%;
         padding: 5%;
     }
-    @media @mobile and (max-width: 650px){
+    @media (min-width: 500px) and (max-width: 650px){
         padding: 5%;
     }
     @media @desktop {
-        padding: 7%;
+        width: 50%;
+        padding: 4%;
         box-shadow: -5px -7px @darkBlue;
     }
 }
@@ -51,10 +55,12 @@ h2 {
         height: 80px;
         font-size: 2.7rem;
         padding: 7% 0 2% 0;
-        margin-top: 5%;
+        margin: 2% auto;
     }
     @media @desktop {
-        padding: 5% 0 2% 0;
+        width: 400px;
+        height: 40px;
+        padding: 4% 0 4% 0;
     }
 
 }
@@ -63,13 +69,19 @@ h2 {
     padding: 6%;
     margin-top: 15%;
     margin-bottom: 8%;
+    @media @mobile {
+        margin: 7% 0 5% 0;
+    }
 }
 .quote {
     background-color: @backgroundColor;
-    box-shadow: 0 -3px 0 @darkMint;
+    box-shadow: 0 -3px @darkMint;
     border-radius: 20px;;
     .center();
     .defaultPadding();
+    @media @mobile{
+        box-shadow: 0 -6px @darkMint;
+    }
 }
 .features {
     max-width: 100%;

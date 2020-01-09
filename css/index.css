@@ -188,6 +188,18 @@ nav {
   align-items: center;
   margin-bottom: 10%;
 }
+@media (min-width: 500px) {
+  nav {
+    padding: 6% 0;
+    margin-bottom: 5%;
+  }
+}
+@media (min-width:1000px) {
+  nav {
+    padding: 3% 0;
+    margin-bottom: 4%;
+  }
+}
 .logo_cont {
   background: #F2EBEB;
   border-radius: 30px;
@@ -214,8 +226,8 @@ nav {
 }
 @media (min-width:1000px) {
   .logo_cont {
-    width: 300px;
-    height: 90px;
+    width: 250px;
+    height: 80px;
     padding: 12% 0 3% 0;
   }
 }
@@ -258,8 +270,8 @@ nav {
 }
 @media (min-width:1000px) {
   .button_nav {
-    width: 260px;
-    height: 60px;
+    width: 200px;
+    height: 50px;
     font-size: 2.2rem;
     padding: 9% 0 1% 0;
   }
@@ -269,6 +281,18 @@ footer {
   padding: 8% 0;
   margin-top: 10%;
 }
+@media (min-width: 500px) {
+  footer {
+    padding: 6% 0;
+    margin-top: 6%;
+  }
+}
+@media (min-width:1000px) {
+  footer {
+    padding: 4% 0;
+    margin-top: 4%;
+  }
+}
 .copyright_cont {
   display: flex;
   justify-content: center;
@@ -276,22 +300,29 @@ footer {
 .copyright {
   width: 40%;
   background-color: #F2EBEB;
-  box-shadow: 0px -3px 0 #65B879;
+  box-shadow: 0 -3px #65B879;
   font-size: 1rem;
   border-radius: 20px;
   padding: 1%;
 }
+@media (min-width:1000px) {
+  .copyright {
+    width: 25%;
+    font-size: 0.8rem;
+    box-shadow: 0 -6px #65B879;
+  }
+}
 .home_header {
-  margin: 0 auto;
-  margin-top: 6%;
   background: url(../assets/thoughtBubble.svg);
   background-repeat: no-repeat;
-  height: 400px;
   object-fit: contain;
+  background-position: center;
+  height: 400px;
+  margin: 6% auto 0 auto;
   padding-top: 18%;
   padding-left: 18%;
 }
-@media (min-width: 500px) and (max-width: 650px) {
+@media (min-width: 500px) {
   .home_header {
     height: 520px;
     padding-top: 16%;
@@ -307,21 +338,24 @@ footer {
 }
 @media (min-width:1000px) {
   .home_header {
-    height: 90vh;
+    height: 100vh;
+    margin: 2% 3% 0 3%;
+    padding-top: 12%;
+    padding-left: 30%;
   }
 }
 h2 {
   margin-bottom: 4%;
 }
 .action_cont {
-  max-width: 80%;
-  padding: 1% 0 1% 0;
   background-color: #F2EBEB;
-  border-radius: 15px;
+  max-width: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 1% 0 1% 0;
+  border-radius: 15px;
   box-shadow: -2px -3px #5BA9B1;
 }
 @media (min-width: 500px) {
@@ -337,7 +371,8 @@ h2 {
 }
 @media (min-width:1000px) {
   .action_cont {
-    padding: 7%;
+    width: 50%;
+    padding: 4%;
     box-shadow: -5px -7px #5BA9B1;
   }
 }
@@ -356,18 +391,24 @@ h2 {
   text-shadow: -1px -1px #a32222;
   margin: 4% auto;
 }
+.button_action:hover {
+  background-color: #a32222;
+  box-shadow: 0px 5px #ff8080;
+}
 @media (min-width: 500px) {
   .button_action {
     width: 325px;
     height: 80px;
     font-size: 2.7rem;
     padding: 7% 0 2% 0;
-    margin-top: 5%;
+    margin: 2% auto;
   }
 }
 @media (min-width:1000px) {
   .button_action {
-    padding: 5% 0 2% 0;
+    width: 400px;
+    height: 40px;
+    padding: 4% 0 4% 0;
   }
 }
 .quote_cont {
@@ -376,15 +417,25 @@ h2 {
   margin-top: 15%;
   margin-bottom: 8%;
 }
+@media (min-width: 500px) {
+  .quote_cont {
+    margin: 7% 0 5% 0;
+  }
+}
 .quote {
   background-color: #F2EBEB;
-  box-shadow: 0 -3px 0 #65B879;
+  box-shadow: 0 -3px #65B879;
   border-radius: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 4%;
+}
+@media (min-width: 500px) {
+  .quote {
+    box-shadow: 0 -6px #65B879;
+  }
 }
 .features {
   max-width: 100%;
@@ -419,12 +470,23 @@ h2 {
 .about_header h2 {
   margin: 0;
 }
+@media (min-width: 500px) {
+  .about_header {
+    width: 30%;
+    padding: 3%;
+  }
+}
 .team_cont {
   margin-top: 10%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+@media (min-width: 500px) {
+  .team_cont {
+    margin-top: 5%;
+  }
 }
 @media (min-width:1000px) {
   .team_cont {
@@ -471,6 +533,10 @@ img {
   padding: 15px 0 5px 0;
   box-shadow: 0px 8px #a32222;
   text-shadow: -1px -1px 0px #a32222;
+}
+.button_github:hover {
+  background-color: #a32222;
+  box-shadow: 0px 5px #ff8080;
 }
 .button_github:hover {
   background-color: #a32222;
