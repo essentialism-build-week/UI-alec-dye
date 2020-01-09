@@ -1,0 +1,58 @@
+// Positioning
+.center(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.defaultMargin(){
+    margin: 6% 0;
+}
+.defaultPadding(){
+    padding: 4%;
+}
+// Buttons
+.btn1(@darkBlue, @backgroundColor){
+    background-color: @darkBlue;
+    display: block;
+    cursor: pointer;
+    color: @backgroundColor;
+    font-size: 1.3rem;
+    padding: 10px 0 10px 0;
+    text-decoration: none;
+    border-radius: 15px;
+    width: 150px;
+    height: 20px;
+}
+.btn2(@btnAction, @backgroundColor){
+    display: block;
+    width: 200px;
+    height: 60px;
+    background-color: @btnAction;
+    cursor: pointer;
+    color: @backgroundColor;
+    font-size: 1.8rem;
+    padding: 50px 0 10px 0;
+    text-decoration: none;
+    border-radius: 15px;
+}
+.btn3(@red, @backgroundColor){
+    display: block;
+    background-color: @red;
+    color: @backgroundColor;
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding: 10px 0 10px 0;
+    border-radius: 15px;
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+}
+// Debugging
+.viewCont(){
+    border: 1px solid black;
+    // padding: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
