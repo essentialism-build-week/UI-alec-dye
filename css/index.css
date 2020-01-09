@@ -143,9 +143,37 @@ h5 {
   font-size: 1.5rem;
   font-weight: bold;
 }
+@media (min-width: 700px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-size: 1.6rem;
+  }
+}
+@media (min-width:1000px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-size: 1.8rem;
+  }
+}
 p {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   line-height: 1.6em;
+}
+@media (min-width: 700px) {
+  p {
+    font-size: 1.4rem;
+  }
+}
+@media (min-width:1000px) {
+  p {
+    font-size: 1.5rem;
+  }
 }
 a {
   text-decoration: none;
@@ -172,7 +200,7 @@ nav {
   font-size: 2.5rem;
   color: black;
 }
-@media (min-width: 1000px) {
+@media (min-width:1000px) {
   .logo_cont h1 {
     font-size: 4rem;
   }
@@ -184,7 +212,7 @@ nav {
     padding: 15% 0 3% 0;
   }
 }
-@media (min-width: 1000px) {
+@media (min-width:1000px) {
   .logo_cont {
     width: 300px;
     height: 90px;
@@ -228,7 +256,7 @@ nav {
     margin-bottom: 5%;
   }
 }
-@media (min-width: 1000px) {
+@media (min-width:1000px) {
   .button_nav {
     width: 260px;
     height: 60px;
@@ -258,35 +286,59 @@ footer {
   margin-top: 6%;
   background: url(../assets/thoughtBubble.svg);
   background-repeat: no-repeat;
-  height: 500px;
+  height: 400px;
   object-fit: contain;
+  padding-top: 18%;
+  padding-left: 18%;
 }
-@media only screen and ((min-width: 500px)) {
+@media (min-width: 500px) and (max-width: 650px) {
   .home_header {
-    max-width: 100%;
-    height: 800px;
+    height: 520px;
+    padding-top: 16%;
+    padding-left: 17%;
+  }
+}
+@media (min-width: 650px) and (max-width: 1000px) {
+  .home_header {
+    height: 785px;
+    padding-top: 18%;
+    padding-left: 18%;
+  }
+}
+@media (min-width:1000px) {
+  .home_header {
+    height: 90vh;
   }
 }
 h2 {
   margin-bottom: 4%;
 }
 .action_cont {
-  max-width: 65%;
-  padding: 2% 1%;
+  max-width: 80%;
+  padding: 1% 0 1% 0;
   background-color: #F2EBEB;
   border-radius: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  position: relative;
-  top: 16%;
-  left: 16%;
   box-shadow: -2px -3px #5BA9B1;
 }
-@media only screen and ((min-width: 500px)) {
+@media (min-width: 500px) {
   .action_cont {
-    position: absolute;
+    max-width: 70%;
+    padding: 5%;
+  }
+}
+@media (min-width: 500px) and (max-width: 650px) {
+  .action_cont {
+    padding: 5%;
+  }
+}
+@media (min-width:1000px) {
+  .action_cont {
+    padding: 7%;
+    box-shadow: -5px -7px #5BA9B1;
   }
 }
 .button_action {
@@ -300,9 +352,23 @@ h2 {
   padding: 50px 0 10px 0;
   text-decoration: none;
   border-radius: 15px;
-  margin: 4% auto;
   box-shadow: 0px 15px 0px #a32222;
   text-shadow: -1px -1px #a32222;
+  margin: 4% auto;
+}
+@media (min-width: 500px) {
+  .button_action {
+    width: 325px;
+    height: 80px;
+    font-size: 2.7rem;
+    padding: 7% 0 2% 0;
+    margin-top: 5%;
+  }
+}
+@media (min-width:1000px) {
+  .button_action {
+    padding: 5% 0 2% 0;
+  }
 }
 .quote_cont {
   background-color: #a6e0b4;
