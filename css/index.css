@@ -172,8 +172,34 @@ nav {
   font-size: 2.5rem;
   color: black;
 }
+@media (min-width: 1000px) {
+  .logo_cont h1 {
+    font-size: 4rem;
+  }
+}
+@media (min-width: 500px) {
+  .logo_cont {
+    width: 200px;
+    height: 70px;
+    padding: 15% 0 3% 0;
+  }
+}
+@media (min-width: 1000px) {
+  .logo_cont {
+    width: 300px;
+    height: 90px;
+    padding: 12% 0 3% 0;
+  }
+}
 .links_cont {
   width: 30%;
+}
+@media (min-width: 500px) {
+  .links_cont {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+  }
 }
 .button_nav {
   background-color: #5BA9B1;
@@ -186,8 +212,29 @@ nav {
   border-radius: 15px;
   width: 150px;
   height: 20px;
-  box-shadow: 0px 10px 0px #A0CDD2;
-  text-shadow: -1px -1px 0px #A0CDD2;
+  box-shadow: 0px 10px #A0CDD2;
+  text-shadow: -1px -1px #A0CDD2;
+}
+.button_nav:hover {
+  background-color: #A0CDD2;
+  box-shadow: 0px 5px #5BA9B1;
+}
+@media (min-width: 500px) {
+  .button_nav {
+    width: 220px;
+    height: 40px;
+    padding: 6% 0 2% 0;
+    font-size: 1.7rem;
+    margin-bottom: 5%;
+  }
+}
+@media (min-width: 1000px) {
+  .button_nav {
+    width: 260px;
+    height: 60px;
+    font-size: 2.2rem;
+    padding: 9% 0 1% 0;
+  }
 }
 footer {
   background-color: #a6e0b4;
@@ -214,6 +261,12 @@ footer {
   height: 500px;
   object-fit: contain;
 }
+@media only screen and ((min-width: 500px)) {
+  .home_header {
+    max-width: 100%;
+    height: 800px;
+  }
+}
 h2 {
   margin-bottom: 4%;
 }
@@ -230,6 +283,11 @@ h2 {
   top: 16%;
   left: 16%;
   box-shadow: -2px -3px #5BA9B1;
+}
+@media only screen and ((min-width: 500px)) {
+  .action_cont {
+    position: absolute;
+  }
 }
 .button_action {
   display: block;
