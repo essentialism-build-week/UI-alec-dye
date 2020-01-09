@@ -18,7 +18,11 @@
         padding-left: 18%;
     }
     @media @desktop{
-        height: 90vh;
+        height: 100vh;
+        padding-top: 12%;
+        padding-left: 30%;
+        background-position: center;
+        margin: 2% 3% 0 3%;
     }
 }
 h2 {
@@ -35,11 +39,12 @@ h2 {
         max-width: 70%;
         padding: 5%;
     }
-    @media @mobile and (max-width: 650px){
+    @media (min-width: 500px) and (max-width: 650px){
         padding: 5%;
     }
     @media @desktop {
-        padding: 7%;
+        width: 50%;
+        padding: 4%;
         box-shadow: -5px -7px @darkBlue;
     }
 }
@@ -51,10 +56,12 @@ h2 {
         height: 80px;
         font-size: 2.7rem;
         padding: 7% 0 2% 0;
-        margin-top: 5%;
+        margin: 2% auto;
     }
     @media @desktop {
-        padding: 5% 0 2% 0;
+        width: 400px;
+        height: 40px;
+        padding: 4% 0 4% 0;
     }
 
 }
@@ -63,13 +70,19 @@ h2 {
     padding: 6%;
     margin-top: 15%;
     margin-bottom: 8%;
+    @media @mobile {
+        margin: 7% 0 5% 0;
+    }
 }
 .quote {
     background-color: @backgroundColor;
-    box-shadow: 0 -3px 0 @darkMint;
+    box-shadow: 0 -3px @darkMint;
     border-radius: 20px;;
     .center();
     .defaultPadding();
+    @media @mobile{
+        box-shadow: 0 -6px @darkMint;
+    }
 }
 .features {
     max-width: 100%;
