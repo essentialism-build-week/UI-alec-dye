@@ -1,13 +1,13 @@
 .home_header {
-    margin: 0 auto;
-    margin-top: 6%;
     background: url(@thoughtBubble);
     background-repeat: no-repeat;
-    height: 400px; 
     object-fit: contain;
+    background-position: center;
+    height: 400px;
+    margin: 6% auto 0 auto;
     padding-top: 18%;
     padding-left: 18%;
-    @media (min-width: 500px) and (max-width:650px) {
+    @media @mobile{
         height: 520px;
         padding-top: 16%;
         padding-left: 17%;
@@ -19,21 +19,20 @@
     }
     @media @desktop{
         height: 100vh;
+        margin: 2% 3% 0 3%;
         padding-top: 12%;
         padding-left: 30%;
-        background-position: center;
-        margin: 2% 3% 0 3%;
     }
 }
 h2 {
     margin-bottom: 4%;
 }
 .action_cont{
-    max-width: 80%;
-    padding: 1% 0 1% 0;
     background-color: @backgroundColor;
-    border-radius: 15px;
+    max-width: 80%;
     .center();
+    padding: 1% 0 1% 0;
+    border-radius: 15px;
     box-shadow: -2px -3px @darkBlue;
     @media @mobile {
         max-width: 70%;
