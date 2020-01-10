@@ -152,7 +152,7 @@ h5 {
     font-size: 1.6rem;
   }
 }
-@media (min-width:1000px) {
+@media (min-width: 1000px) {
   h1,
   h2,
   h3,
@@ -170,7 +170,7 @@ p {
     font-size: 1.4rem;
   }
 }
-@media (min-width:1000px) {
+@media (min-width: 1000px) {
   p {
     font-size: 1.5rem;
   }
@@ -194,7 +194,7 @@ nav {
     margin-bottom: 5%;
   }
 }
-@media (min-width:1000px) {
+@media (min-width: 1000px) {
   nav {
     padding: 3% 0;
     margin-bottom: 4%;
@@ -212,7 +212,7 @@ nav {
   font-size: 2.5rem;
   color: black;
 }
-@media (min-width:1000px) {
+@media (min-width: 1000px) {
   .logo_cont h1 {
     font-size: 4rem;
   }
@@ -224,7 +224,7 @@ nav {
     padding: 15% 0 3% 0;
   }
 }
-@media (min-width:1000px) {
+@media (min-width: 1000px) {
   .logo_cont {
     width: 250px;
     height: 80px;
@@ -268,7 +268,7 @@ nav {
     margin-bottom: 5%;
   }
 }
-@media (min-width:1000px) {
+@media (min-width: 1000px) {
   .button_nav {
     width: 200px;
     height: 50px;
@@ -287,7 +287,7 @@ footer {
     margin-top: 6%;
   }
 }
-@media (min-width:1000px) {
+@media (min-width: 1000px) {
   footer {
     padding: 4% 0;
     margin-top: 4%;
@@ -305,7 +305,7 @@ footer {
   border-radius: 20px;
   padding: 1%;
 }
-@media (min-width:1000px) {
+@media (min-width: 1000px) {
   .copyright {
     width: 25%;
     font-size: 0.8rem;
@@ -336,7 +336,7 @@ footer {
     padding-left: 18%;
   }
 }
-@media (min-width:1000px) {
+@media (min-width: 1000px) {
   .home_header {
     height: 100vh;
     margin: 2% 3% 0 3%;
@@ -369,7 +369,7 @@ h2 {
     padding: 5%;
   }
 }
-@media (min-width:1000px) {
+@media (min-width: 1000px) {
   .action_cont {
     width: 50%;
     padding: 4%;
@@ -404,7 +404,7 @@ h2 {
     margin: 2% auto;
   }
 }
-@media (min-width:1000px) {
+@media (min-width: 1000px) {
   .button_action {
     width: 400px;
     height: 40px;
@@ -488,7 +488,7 @@ h2 {
     margin-top: 5%;
   }
 }
-@media (min-width:1000px) {
+@media (min-width: 1000px) {
   .team_cont {
     flex-direction: row;
     flex-wrap: wrap;
@@ -501,7 +501,7 @@ h2 {
   align-items: center;
   flex-direction: column;
 }
-@media (min-width:1000px) {
+@media (min-width: 1000px) {
   .team_id_cont {
     margin: 0 5%;
   }
